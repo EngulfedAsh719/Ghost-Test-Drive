@@ -3,10 +3,8 @@ using UnityEngine;
 
 public class GhostController : MonoBehaviour
 {
-    // Публичные переменные
     public float speed = 5f;
 
-    // Приватные переменные
     private List<Vector3> positions;
     private List<Quaternion> rotations;
     private List<float> timestamps;
