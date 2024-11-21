@@ -44,7 +44,6 @@ public class TrajectoryRecorder : MonoBehaviour
         return isForward;
     }
 
-    // Сброс данных
     public void ResetData()
     {
         positions.Clear();
@@ -53,7 +52,6 @@ public class TrajectoryRecorder : MonoBehaviour
         startTime = Time.time;
     }
 
-    // Получение данных
     public List<Vector3> GetPositions() => positions;
     public List<Quaternion> GetRotations() => rotations;
     public List<float> GetTimestamps() => timestamps;
